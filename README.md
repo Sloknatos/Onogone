@@ -2,7 +2,7 @@
 <br><br>
 ## Subject
 
-### Features excepted
+### Features expected
 
 - Get all comment
 - Check spell (example: 'travail' -> 'travaille')
@@ -27,7 +27,7 @@
 Usage :
 `python main.py [command]`
 
-command available :
+commands available :
 - `write` to get comments and generate the first JSON <sup>[1](#myfootnote1)</sup>
 - `read` to read the JSON source and transform data <sup>[2](#myfootnote1)</sup>
 
@@ -42,7 +42,7 @@ From original link, get the comments page, scrap comments and write in `.files/o
 }
 ```
 
-$index have to value :
+index have to value :
 - if comment is an original -> id_comment
 - if comment is an answer -> answer + a hash of the text
 
@@ -60,7 +60,7 @@ Module write results in `./files/results.json`.
 
 <br><br>
 
-## Resume of work / not work :
+## Summary of work / not work :
 
 **Working**
 - *Scrapper* get comments.
@@ -77,7 +77,7 @@ Module write results in `./files/results.json`.
 **Don't work**
 - "Les" doesn't convert in "Le".
 - Some verb don't change (example: "veux" in my result.old.json).
-- Some noun transform intoi verb and reverse.
+- Some noun transform into verb and reverse.
 
 I let my result with the .old.json ext.
 
