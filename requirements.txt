@@ -1,0 +1,7 @@
+bs4==0.0.1
+nltk==3.5
+num2words==0.5.10
+Scrapy==2.3.0
+inflect==4.1.0
+spellchecker==0.4
+pyspellchecker==0.5.4
