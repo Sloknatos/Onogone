@@ -22,10 +22,21 @@
 
 ## Rendered work
 
+### Installation
+
+On Unix system :
+```SHELL 
+apt-get install python3.8
+apt-get install python3-pip
+git clone https://github.com/Sloknatos/Onogone.git
+cd Onogone
+pip install -r requirements.txt
+```
+
 ### Usage
 
 Usage :
-`python main.py [command]`
+`python3.8 main.py [command]`
 
 commands available :
 - `write` to get comments and generate the first JSON <sup>[1](#myfootnote1)</sup>
